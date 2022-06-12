@@ -1,0 +1,88 @@
+*
+				margin:0px;
+			    padding:0px;
+			}
+			
+			#header {
+				width:0px;
+				margin-top:30px;
+				margin-left:10%;
+				font-family:Lucida Handwriting;
+				height:500px;
+				float:center;
+					
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			.navegacion  {
+			    width:1000px;
+				
+				margin:50px auto;
+			
+			}
+		/* el simbolo de > para trabajar solo  los elementos hijos del menu y no los nietos del submenú */
+			.navegacion > li {
+				float:left;
+				margin:40px auto;
+}
+			
+			.navegacion  li a {
+				
+				background-color:#3cde93;
+				color:#fff;
+				text-decoration:none;/* overline line-through none ;underline ; underline overline dotted red; 
+				                     underline overline wavy blue */
+				padding:15px 12px;
+				display: inline-block;/* list-itemtable-row-group inline-block table-footer-group block inline  
+				run-in  inline-table */
+			}
+			
+			.navegacion li a:hover {
+				background-color:#00d9c1;
+			}
+			
+			.navegacion li ul {
+				display:none;
+				position: absolute;/*   absolute relative    */
+				min-width:120px;
+			}
+			
+			.navegacion li:hover > ul {
+				display:list-item; /*   block  */
+			}
+			
+			.navegacion li ul li {
+				position:relative; /*   absolute relative  fixed  */
+			}
+			
+			.navegacion li ul li ul {
+				right:40px;
+				top:10px;
+			}
+
+.prueba2 {
+	margin: 10px;
+	width: 200px;
+	height: 300px;
+	background-color: #3cd1de;
+	border: 1px solid #666;
+	transition-property: width, height, background color;
+    transition-duration: 0.5s, 1s, 1s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s 0.5s, 1.5s;
+   }
+
+   .prueba2:hover {
+      width: 400px;
+      height: 300px;
+      background-color: #bf00ff;
+      transition-property: width, height, beckground-color;
+      transition-duration: 0.5s, 0.5s, 0.5s;
+      transition-timing-function: linear, linear;
+      transition-delay: 0s, 0.5s, 0.5s ;
+   }
+
+     
+   
